@@ -41,4 +41,59 @@
     height: 666px;
     background-size: cover;
 }
+ .top-nav{
+     width: 1330px;
+     height:79px;
+     background-color:rgba(0,0,0,0.2);
+    
+ }
+.logo-contact{
+    color:white;
+    float:left                                     
+}
+
+.logo-contact span{
+    color:#FFC42D;
+}
+
+    
+    
+
+
+.nav-bar a{
+    
+    text-decoration: none;
+    color:white;
+    padding-right:20px;
+    
+    
+}
+.nav-bar{
+    float:right;
+    
+    margin:30px 30px;
+}
+
+.logo-contact p{
+    text-align: center;
+    
+}
+
+.nav-bar button{
+    background-color:#EE2B7A;
+    border-radius: 10px;
+}
+
+.image-1{
+    float: left;
+}
+
+.need-help{
+  float: left;
+}
+
+   
+    
+
+
 
