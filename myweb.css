@@ -100,7 +100,7 @@
     opacity: 0.9;
     margin-top: 200px;
     font-size: 30px;
-    overflow: hidden;
+   
     
     
     
@@ -112,12 +112,13 @@
 }
 
 .body-image{
-    height: 500px;
+    height: 800px;
     margin-top: 200px;
     border-style: solid;
+    width: 100px;
     
 }
-.body{
+.body-1{
     width: 600px;
     height: 380px;
     margin-left: 69px;
@@ -131,9 +132,54 @@
     margin-left: 150px;
     margin-top: 50px;
     float: right;
-}
-   
+    width: 670px;
+    height: 447px;
     
+}
+.services{
+    clear: both;
+   
+
+}
+.service-word{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.service-body{
+    margin:0px 64px ;
+    text-align: center;
+   
+}
+.srv{
+    width:20%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+    padding: 15px 5px;
+    border: 2px solid rgba(0, 0, 0, 0.234)
+}
+.srv h2{
+    padding-top: 40px;
+}
+.img{
+    background-color: #772D8B;
+    width: 106px;
+    height: 106px;
+}
+.h1-all{
+    font-size: 15px;
+    color:#772D8B;
+    opacity: 0.8;
+}
+
+.h2-all{
+    opacity: 0.8;
+    font-size: 30px;
+}
+
+
 
 
 
