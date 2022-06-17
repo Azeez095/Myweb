@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 .header-1{
     background-color:#772D8B;
     height: 46px;
@@ -49,7 +50,8 @@
  }
 .logo-contact{
     color:white;
-    float:left                                     
+    float:left;
+    clear:left;                                   
 }
 
 .logo-contact span{
@@ -70,6 +72,7 @@
 }
 .nav-bar{
     float:right;
+    clear:right;
     
     margin:30px 30px;
 }
@@ -86,10 +89,12 @@
 
 .image-1{
     float: left;
+    
 }
 
 .need-help{
   float: left;
+  
 }
 
 .word{
@@ -124,6 +129,7 @@
     margin-left: 69px;
     float: left;
     margin-top: 50px;
+    clear: left;
     
     
 
@@ -134,6 +140,7 @@
     float: right;
     width: 670px;
     height: 447px;
+    clear:right
     
 }
 .services{
@@ -150,16 +157,22 @@
 .service-body{
     margin:0 auto ;
     text-align: center;
+    display: flex;
     
 }
 .srv{
-    width:25%;
+   
     height: 300px;
-    float: left;
+    margin-right: 30px;
     text-align: center; 
     padding: 15px 5px;
     border: 2px solid rgba(0, 0, 0, 0.234);
-    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+.support{
+    margin-left: 30px;
 }
 .srv h2{
     padding-top: 40px;
